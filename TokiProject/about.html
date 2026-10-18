@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>About — RiftFitness</title>
+  <meta name="description" content="Learn about RiftFitness — our story, mission, and the team behind the gym."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ── NAV ────────────────────────────────────────────────── -->
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo"><span class="logo-rift">RIFT</span><span class="logo-fitness">FITNESS</span></a>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="index.html"    data-page="index.html"    data-i18n="nav.home">Home</a></li>
+      <li><a href="about.html"    data-page="about.html"    data-i18n="nav.about">About</a></li>
+      <li><a href="programs.html" data-page="programs.html" data-i18n="nav.programs">Programs</a></li>
+      <li><a href="blog.html"     data-page="blog.html"     data-i18n="nav.blog">Blog</a></li>
+      <li><a href="contact.html"  data-page="contact.html"  data-i18n="nav.contact">Contact</a></li>
+    </ul>
+    <div class="nav__right">
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+        <span class="lang-en lang-active">EN</span>
+        <span class="lang-sep">|</span>
+        <span class="lang-mk">МК</span>
+      </button>
+      <a href="contact.html" class="btn btn--outline nav__cta" data-i18n="nav.join">Join Now</a>
+      <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- ── PAGE HERO ──────────────────────────────────────────── -->
+<div class="page-hero">
+  <div class="container">
+    <h1 class="page-hero__title" data-i18n="about.hero.title">About Us</h1>
+    <p class="page-hero__sub" data-i18n="about.hero.sub">Our story, mission, and the team behind RiftFitness.</p>
+  </div>
+</div>
+
+<!-- ── OUR STORY ──────────────────────────────────────────── -->
+<section class="section">
+  <div class="container">
+    <div class="about-layout">
+      <div class="about-text">
+        <span class="section-tag" data-i18n="about.story.tag">Our Story</span>
+        <h2 data-i18n="about.story.title">Built for the Relentless</h2>
+        <p data-i18n="about.story.p1">RiftFitness was born from a simple frustration: most gyms are just buildings with equipment. We wanted something more — a place where science meets passion, where every member is seen as an individual with unique goals.</p>
+        <p data-i18n="about.story.p2">Since opening in 2024, we have grown to over 12,000 active members, with a coaching team that rivals any elite sports facility in the region.</p>
+      </div>
+      <div class="about-img">
+        <img src="slika1.webp" alt="RiftFitness head coach"/>
+        <div class="about-img-badge">
+          <strong>2024</strong>
+          <span>Est.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── MISSION ─────────────────────────────────────────────── -->
+<section class="section" style="background:var(--bg2);padding-top:60px;padding-bottom:60px">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag" data-i18n="about.mission.tag">Our Mission</span>
+      <h2 class="section-title" data-i18n="about.mission.title">What <em>Drives</em> Us</h2>
+    </div>
+    <div class="mission-grid">
+      <div class="mission-card">
+        <div class="mission-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2v-4M9 21H5a2 2 0 0 1-2-2v-4m0 0h18"/></svg>
+        </div>
+        <h4 data-i18n="about.m1.title">Science-Based Training</h4>
+        <p data-i18n="about.m1.text">Every program is backed by sports science research and continuously updated based on the latest findings.</p>
+      </div>
+      <div class="mission-card">
+        <div class="mission-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <h4 data-i18n="about.m2.title">Inclusive Community</h4>
+        <p data-i18n="about.m2.text">From beginners to elite athletes — everyone belongs here. We meet you where you are and take you where you want to go.</p>
+      </div>
+      <div class="mission-card">
+        <div class="mission-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        </div>
+        <h4 data-i18n="about.m3.title">Real Results</h4>
+        <p data-i18n="about.m3.text">We measure our success by your results. Our staff are held accountable to your progress.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── HOURS & FACILITIES ──────────────────────────────────── -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag" data-i18n="about.hours.tag">Facility Info</span>
+      <h2 class="section-title" data-i18n="about.hours.title">Opening Hours & <em>Facilities</em></h2>
+    </div>
+    <div class="info-grid">
+      <div class="info-card">
+        <h4>🕐 &nbsp;<span data-i18n="about.hours.title">Opening Hours</span></h4>
+        <div class="hours-row">
+          <span data-i18n="about.hours.mon">Monday – Friday</span>
+          <span data-i18n="about.hours.mon.v">06:00 – 23:00</span>
+        </div>
+        <div class="hours-row">
+          <span data-i18n="about.hours.sat">Saturday</span>
+          <span data-i18n="about.hours.sat.v">08:00 – 22:00</span>
+        </div>
+        <div class="hours-row">
+          <span data-i18n="about.hours.sun">Sunday</span>
+          <span data-i18n="about.hours.sun.v">08:00 – 20:00</span>
+        </div>
+      </div>
+      <div class="info-card">
+        <h4>🏋️ &nbsp;Facilities</h4>
+        <ul class="fac-list">
+          <li class="fac-item" data-i18n="about.fac1">Free Weights Area</li>
+          <li class="fac-item" data-i18n="about.fac2">Cardio Zone</li>
+          <li class="fac-item" data-i18n="about.fac3">Group Class Studio</li>
+          <li class="fac-item" data-i18n="about.fac4">Recovery Room</li>
+          <li class="fac-item" data-i18n="about.fac5">Nutrition Bar</li>
+          <li class="fac-item" data-i18n="about.fac6">Locker Rooms</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Timetable -->
+    <div style="margin-top:48px">
+      <div class="section-header" style="margin-bottom:24px">
+        <span class="section-tag" data-i18n="about.sched.tag">Weekly Schedule</span>
+        <h2 class="section-title" data-i18n="about.sched.title">Class Timetable</h2>
+        <p class="section-sub" data-i18n="about.sched.sub">Join our group classes — included in all membership plans.</p>
+      </div>
+      <div style="overflow-x:auto">
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th data-i18n="about.sched.mon">Mon</th>
+              <th data-i18n="about.sched.tue">Tue</th>
+              <th data-i18n="about.sched.wed">Wed</th>
+              <th data-i18n="about.sched.thu">Thu</th>
+              <th data-i18n="about.sched.fri">Fri</th>
+              <th data-i18n="about.sched.sat">Sat</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>07:00</strong></td>
+              <td><strong>HIIT Cardio</strong><span>Aisha K.</span></td>
+              <td><strong>Powerlifting</strong><span>Marcus S.</span></td>
+              <td><strong>HIIT Cardio</strong><span>Aisha K.</span></td>
+              <td><strong>Powerlifting</strong><span>Marcus S.</span></td>
+              <td><strong>HIIT Cardio</strong><span>Aisha K.</span></td>
+              <td><strong>Mobility Flow</strong><span>Sofia L.</span></td>
+            </tr>
+            <tr>
+              <td><strong>12:00</strong></td>
+              <td><strong>Mobility Flow</strong><span>Sofia L.</span></td>
+              <td><strong>Foundation</strong><span>Darius M.</span></td>
+              <td><strong>Mobility Flow</strong><span>Sofia L.</span></td>
+              <td><strong>Foundation</strong><span>Darius M.</span></td>
+              <td><strong>Mobility Flow</strong><span>Sofia L.</span></td>
+              <td><strong>Open Gym</strong><span>Staff</span></td>
+            </tr>
+            <tr>
+              <td><strong>18:30</strong></td>
+              <td><strong>Athletic Perf.</strong><span>James R.</span></td>
+              <td><strong>Body Recomp</strong><span>Sofia L.</span></td>
+              <td><strong>Athletic Perf.</strong><span>James R.</span></td>
+              <td><strong>Body Recomp</strong><span>Sofia L.</span></td>
+              <td><strong>Powerlifting</strong><span>Marcus S.</span></td>
+              <td><strong>-</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── TEAM ────────────────────────────────────────────────── -->
+<section class="section" style="background:var(--bg2)">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag" data-i18n="about.team.tag">Our Team</span>
+      <h2 class="section-title" data-i18n="about.team.title">Meet the People Behind <em>RiftFitness</em></h2>
+      <p class="section-sub" data-i18n="about.team.sub">Our staff combines elite athletic backgrounds with deep expertise in sports science, nutrition, and performance coaching.</p>
+    </div>
+    <div class="team-grid">
+
+      <!-- Nikola Markovski -->
+      <div class="team-card" id="teamMarkovski">
+        <div class="team-card__avatar" style="background:linear-gradient(135deg,#f97316,#ef4444)">NM</div>
+        <div class="team-card__name">Nikola Markovski</div>
+        <div class="team-card__role" data-i18n="team.markovski.role">Head Coach &amp; Co-Founder</div>
+        <span class="team-card__id"><span data-i18n="about.id">Staff ID</span>: 241060</span>
+      </div>
+
+      <!-- Nemanja Krstevski -->
+      <div class="team-card" id="teamKrstevski">
+        <div class="team-card__avatar" style="background:linear-gradient(135deg,#8b5cf6,#3b82f6)">NK</div>
+        <div class="team-card__name">Nemanja Krstevski</div>
+        <div class="team-card__role" data-i18n="team.krstevski.role">Fitness Trainer</div>
+        <span class="team-card__id"><span data-i18n="about.id">Staff ID</span>: 241102</span>
+      </div>
+
+      <!-- Nikola Jovanovski -->
+      <div class="team-card" id="teamJovanovski">
+        <div class="team-card__avatar" style="background:linear-gradient(135deg,#10b981,#0ea5e9)">NJ</div>
+        <div class="team-card__name">Nikola Jovanovski</div>
+        <div class="team-card__role" data-i18n="team.jovanovski.role">Nutrition Specialist</div>
+        <span class="team-card__id"><span data-i18n="about.id">Staff ID</span>: 241172</span>
+      </div>
+
+      <!-- Antonio Veljkovic -->
+      <div class="team-card" id="teamVeljkovic">
+        <div class="team-card__avatar" style="background:linear-gradient(135deg,#f59e0b,#ec4899)">AV</div>
+        <div class="team-card__name">Antonio Veljkovic</div>
+        <div class="team-card__role" data-i18n="team.veljkovic.role">Athletic Performance Coach</div>
+        <span class="team-card__id"><span data-i18n="about.id">Staff ID</span>: 241161</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA ─────────────────────────────────────────────────── -->
+<section class="cta-section">
+  <div class="container">
+    <h2 data-i18n="home.cta.title">Ready to <em>Start?</em></h2>
+    <p data-i18n="home.cta.sub">Join thousands of members already transforming their lives.</p>
+    <a href="contact.html" class="btn btn--primary" data-i18n="home.cta.btn">Join RiftFitness Today</a>
+  </div>
+</section>
+
+<!-- ── FOOTER ──────────────────────────────────────────────── -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <a href="index.html" class="nav__logo"><span class="logo-rift">RIFT</span><span class="logo-fitness">FITNESS</span></a>
+        <p data-i18n="footer.tagline">Where limits come to die.</p>
+      </div>
+      <div class="footer__cols">
+        <div class="footer__col">
+          <h5 data-i18n="footer.platform">Platform</h5>
+          <a href="programs.html" data-i18n="footer.programs">Programs</a>
+          <a href="about.html"    data-i18n="footer.about">About Us</a>
+          <a href="blog.html"     data-i18n="footer.blog">Blog</a>
+          <a href="contact.html"  data-i18n="footer.contact">Contact</a>
+        </div>
+        <div class="footer__col">
+          <h5 data-i18n="footer.company">Company</h5>
+          <a href="about.html"   data-i18n="footer.team">Our Team</a>
+          <a href="contact.html" data-i18n="footer.careers">Careers</a>
+          <a href="#"            data-i18n="footer.press">Press</a>
+        </div>
+        <div class="footer__col">
+          <h5 data-i18n="footer.support">Support</h5>
+          <a href="#" data-i18n="footer.help">Help Center</a>
+          <a href="#" data-i18n="footer.privacy">Privacy Policy</a>
+          <a href="#" data-i18n="footer.terms">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p data-i18n="footer.copy">© 2026 RiftFitness. All rights reserved.</p>
+      <div class="footer__socials">
+        <a href="#" class="footer-social" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+        <a href="#" class="footer-social" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ── COOKIE BANNER ────────────────────────────────────────── -->
+<div class="cookie-banner" id="cookieBanner">
+  <p>
+    <span data-i18n="cookie.text">We use cookies to improve your experience.</span>
+    <a href="#" data-i18n="cookie.policy"> Cookie Policy</a>.
+  </p>
+  <div class="cookie-actions">
+    <button class="cookie-btn cookie-btn--accept" id="cookieAccept" data-i18n="cookie.accept">Accept</button>
+    <button class="cookie-btn cookie-btn--decline" id="cookieDecline" data-i18n="cookie.decline">Decline</button>
+  </div>
+</div>
+
+<script src="translations.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

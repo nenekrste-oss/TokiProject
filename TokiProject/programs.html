@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Programs — RiftFitness</title>
+  <meta name="description" content="Six elite fitness programs at RiftFitness — powerlifting, HIIT, mobility, body recomposition, athletic performance, and foundation."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ── NAV ────────────────────────────────────────────────── -->
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo"><span class="logo-rift">RIFT</span><span class="logo-fitness">FITNESS</span></a>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="index.html"    data-page="index.html"    data-i18n="nav.home">Home</a></li>
+      <li><a href="about.html"    data-page="about.html"    data-i18n="nav.about">About</a></li>
+      <li><a href="programs.html" data-page="programs.html" data-i18n="nav.programs">Programs</a></li>
+      <li><a href="blog.html"     data-page="blog.html"     data-i18n="nav.blog">Blog</a></li>
+      <li><a href="contact.html"  data-page="contact.html"  data-i18n="nav.contact">Contact</a></li>
+    </ul>
+    <div class="nav__right">
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+        <span class="lang-en lang-active">EN</span>
+        <span class="lang-sep">|</span>
+        <span class="lang-mk">МК</span>
+      </button>
+      <a href="contact.html" class="btn btn--outline nav__cta" data-i18n="nav.join">Join Now</a>
+      <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- ── PAGE HERO ──────────────────────────────────────────── -->
+<div class="page-hero">
+  <div class="container">
+    <h1 class="page-hero__title" data-i18n="programs.hero.title">Our Programs</h1>
+    <p class="page-hero__sub" data-i18n="programs.hero.sub">Six elite training programs designed for every goal and fitness level.</p>
+  </div>
+</div>
+
+<!-- ── ALL PROGRAMS ────────────────────────────────────────── -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag" data-i18n="programs.tag">What We Offer</span>
+      <h2 class="section-title" data-i18n="programs.title">Choose Your <em>Program</em></h2>
+      <p class="section-sub" data-i18n="programs.sub">Every program is engineered with precision — backed by sports science and real results.</p>
+    </div>
+    <div class="programs-grid">
+
+      <!-- Powerlifting -->
+      <div class="prog-card" id="progPowerlifting">
+        <span class="prog-card__tag" data-i18n="prog.powerlifting.tag">Most Popular</span>
+        <div class="prog-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 4v16M18 4v16M4 8h2M18 8h2M4 16h2M18 16h2M8 12h8"/></svg>
+        </div>
+        <h3 data-i18n="prog.powerlifting.name">Powerlifting</h3>
+        <p data-i18n="prog.powerlifting.desc">Build raw, functional strength through progressive overload, competition-style training, and periodized programming for all levels.</p>
+        <ul class="prog-card__list">
+          <li data-i18n="prog.powerlifting.f1">Squat, Bench & Deadlift focus</li>
+          <li data-i18n="prog.powerlifting.f2">12-week linear progression</li>
+          <li data-i18n="prog.powerlifting.f3">Weekly coach check-ins</li>
+        </ul>
+        <a href="contact.html" class="prog-card__cta" data-i18n="programs.cta">Start This Program</a>
+      </div>
+
+      <!-- HIIT -->
+      <div class="prog-card" id="progHiit">
+        <span class="prog-card__tag" data-i18n="prog.hiit.tag">Best Value</span>
+        <div class="prog-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        </div>
+        <h3 data-i18n="prog.hiit.name">HIIT & Cardio</h3>
+        <p data-i18n="prog.hiit.desc">High-intensity intervals designed to shred fat, spike your metabolism, and keep you burning calories long after the session.</p>
+        <ul class="prog-card__list">
+          <li data-i18n="prog.hiit.f1">Tabata & AMRAP circuits</li>
+          <li data-i18n="prog.hiit.f2">Heart-rate zone training</li>
+          <li data-i18n="prog.hiit.f3">Nutrition integration</li>
+        </ul>
+        <a href="contact.html" class="prog-card__cta" data-i18n="programs.cta">Start This Program</a>
+      </div>
+
+      <!-- Mobility -->
+      <div class="prog-card" id="progMobility">
+        <span class="prog-card__tag" data-i18n="prog.mobility.tag">New</span>
+        <div class="prog-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M12 3v9l5 3"/></svg>
+        </div>
+        <h3 data-i18n="prog.mobility.name">Mobility & Recovery</h3>
+        <p data-i18n="prog.mobility.desc">Unlock your joints, eliminate chronic pain, and move freely. Built for athletes and desk-bound professionals alike.</p>
+        <ul class="prog-card__list">
+          <li data-i18n="prog.mobility.f1">Daily 20-min mobility flows</li>
+          <li data-i18n="prog.mobility.f2">Fascia release techniques</li>
+          <li data-i18n="prog.mobility.f3">Sleep & recovery protocols</li>
+        </ul>
+        <a href="contact.html" class="prog-card__cta" data-i18n="programs.cta">Start This Program</a>
+      </div>
+
+      <!-- Body Recomp -->
+      <div class="prog-card" id="progRecomp">
+        <span class="prog-card__tag" data-i18n="prog.recomp.tag">Premium</span>
+        <div class="prog-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2c-5.5 0-9 4.5-9 10s3.5 10 9 10 9-4.5 9-10S17.5 2 12 2z"/><path d="M8 12h8M12 8v8"/></svg>
+        </div>
+        <h3 data-i18n="prog.recomp.name">Body Recomposition</h3>
+        <p data-i18n="prog.recomp.desc">Simultaneously build muscle and lose fat through science-driven macro cycling, resistance training, and lifestyle coaching.</p>
+        <ul class="prog-card__list">
+          <li data-i18n="prog.recomp.f1">Custom macro targets</li>
+          <li data-i18n="prog.recomp.f2">Resistance + cardio blend</li>
+          <li data-i18n="prog.recomp.f3">Bi-weekly body scan check</li>
+        </ul>
+        <a href="contact.html" class="prog-card__cta" data-i18n="programs.cta">Start This Program</a>
+      </div>
+
+      <!-- Athletic Performance -->
+      <div class="prog-card" id="progAthletic">
+        <span class="prog-card__tag" data-i18n="prog.athletic.tag">Elite</span>
+        <div class="prog-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3 data-i18n="prog.athletic.name">Athletic Performance</h3>
+        <p data-i18n="prog.athletic.desc">Sport-specific conditioning for athletes who demand peak output — speed, agility, reaction time, and sport-specific strength.</p>
+        <ul class="prog-card__list">
+          <li data-i18n="prog.athletic.f1">Plyometric & agility drills</li>
+          <li data-i18n="prog.athletic.f2">VO₂max improvement</li>
+          <li data-i18n="prog.athletic.f3">Periodization by sport season</li>
+        </ul>
+        <a href="contact.html" class="prog-card__cta" data-i18n="programs.cta">Start This Program</a>
+      </div>
+
+      <!-- Foundation -->
+      <div class="prog-card" id="progFoundation">
+        <span class="prog-card__tag" data-i18n="prog.foundation.tag">Beginner</span>
+        <div class="prog-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </div>
+        <h3 data-i18n="prog.foundation.name">Foundation</h3>
+        <p data-i18n="prog.foundation.desc">The perfect launchpad. Learn correct movement patterns, build base fitness, and develop habits that last a lifetime.</p>
+        <ul class="prog-card__list">
+          <li data-i18n="prog.foundation.f1">8-week starter curriculum</li>
+          <li data-i18n="prog.foundation.f2">Video library & form checks</li>
+          <li data-i18n="prog.foundation.f3">1-on-1 onboarding call</li>
+        </ul>
+        <a href="contact.html" class="prog-card__cta" data-i18n="programs.cta">Start This Program</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── PRICING ──────────────────────────────────────────────── -->
+<section class="section" style="background:var(--bg2)">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag" data-i18n="pricing.tag">Membership Plans</span>
+      <h2 class="section-title" data-i18n="pricing.title">Simple, Transparent Pricing</h2>
+      <p class="section-sub" data-i18n="pricing.sub">No hidden fees. Cancel anytime. Every plan includes access to our core platform.</p>
+    </div>
+    <div class="pricing-grid">
+
+      <!-- Plan 1 -->
+      <div class="price-card" id="planSpark">
+        <h3 data-i18n="pricing.plan1.name">Spark</h3>
+        <p class="price-card__desc" data-i18n="pricing.plan1.desc">Perfect for getting started</p>
+        <div class="price-card__price">
+          <span class="amount">$19</span>
+          <span class="period" data-i18n="pricing.mo">/mo</span>
+        </div>
+        <ul class="price-card__features">
+          <li data-i18n="pricing.plan1.f1">Foundation program access</li>
+          <li data-i18n="pricing.plan1.f2">Video library (200+ videos)</li>
+          <li data-i18n="pricing.plan1.f3">Community forum</li>
+          <li data-i18n="pricing.plan1.f4">Progress tracking</li>
+        </ul>
+        <a href="contact.html" class="btn btn--outline btn--full" data-i18n="pricing.plan1.btn">Get Started</a>
+      </div>
+
+      <!-- Plan 2 (Featured) -->
+      <div class="price-card price-card--featured" id="planForge">
+        <span class="price-card__badge" data-i18n="pricing.popular">Most Popular</span>
+        <h3 data-i18n="pricing.plan2.name">Forge</h3>
+        <p class="price-card__desc" data-i18n="pricing.plan2.desc">For committed athletes</p>
+        <div class="price-card__price">
+          <span class="amount">$49</span>
+          <span class="period" data-i18n="pricing.mo">/mo</span>
+        </div>
+        <ul class="price-card__features">
+          <li data-i18n="pricing.plan2.f1">All programs (320+)</li>
+          <li data-i18n="pricing.plan2.f2">Live group sessions 4×/week</li>
+          <li data-i18n="pricing.plan2.f3">Custom macro calculator</li>
+          <li data-i18n="pricing.plan2.f4">Bi-weekly coach check-in</li>
+        </ul>
+        <a href="contact.html" class="btn btn--primary btn--full" data-i18n="pricing.plan2.btn">Get Forge</a>
+      </div>
+
+      <!-- Plan 3 -->
+      <div class="price-card" id="planElite">
+        <h3 data-i18n="pricing.plan3.name">Elite</h3>
+        <p class="price-card__desc" data-i18n="pricing.plan3.desc">The full RiftFitness experience</p>
+        <div class="price-card__price">
+          <span class="amount">$129</span>
+          <span class="period" data-i18n="pricing.mo">/mo</span>
+        </div>
+        <ul class="price-card__features">
+          <li data-i18n="pricing.plan3.f1">Everything in Forge</li>
+          <li data-i18n="pricing.plan3.f2">Dedicated 1-on-1 coach</li>
+          <li data-i18n="pricing.plan3.f3">Full custom nutrition plan</li>
+          <li data-i18n="pricing.plan3.f4">Priority support 24/7</li>
+        </ul>
+        <a href="contact.html" class="btn btn--outline btn--full" data-i18n="pricing.plan3.btn">Get Elite</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA ─────────────────────────────────────────────────── -->
+<section class="cta-section">
+  <div class="container">
+    <h2 data-i18n="home.cta.title">Ready to <em>Start?</em></h2>
+    <p data-i18n="home.cta.sub">Join thousands of members already transforming their lives.</p>
+    <a href="contact.html" class="btn btn--primary" data-i18n="home.cta.btn">Join RiftFitness Today</a>
+  </div>
+</section>
+
+<!-- ── FOOTER ──────────────────────────────────────────────── -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <a href="index.html" class="nav__logo"><span class="logo-rift">RIFT</span><span class="logo-fitness">FITNESS</span></a>
+        <p data-i18n="footer.tagline">Where limits come to die.</p>
+      </div>
+      <div class="footer__cols">
+        <div class="footer__col">
+          <h5 data-i18n="footer.platform">Platform</h5>
+          <a href="programs.html" data-i18n="footer.programs">Programs</a>
+          <a href="about.html"    data-i18n="footer.about">About Us</a>
+          <a href="blog.html"     data-i18n="footer.blog">Blog</a>
+          <a href="contact.html"  data-i18n="footer.contact">Contact</a>
+        </div>
+        <div class="footer__col">
+          <h5 data-i18n="footer.company">Company</h5>
+          <a href="about.html"   data-i18n="footer.team">Our Team</a>
+          <a href="contact.html" data-i18n="footer.careers">Careers</a>
+          <a href="#"            data-i18n="footer.press">Press</a>
+        </div>
+        <div class="footer__col">
+          <h5 data-i18n="footer.support">Support</h5>
+          <a href="#" data-i18n="footer.help">Help Center</a>
+          <a href="#" data-i18n="footer.privacy">Privacy Policy</a>
+          <a href="#" data-i18n="footer.terms">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p data-i18n="footer.copy">© 2026 RiftFitness. All rights reserved.</p>
+      <div class="footer__socials">
+        <a href="#" class="footer-social" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+        <a href="#" class="footer-social" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ── COOKIE BANNER ────────────────────────────────────────── -->
+<div class="cookie-banner" id="cookieBanner">
+  <p>
+    <span data-i18n="cookie.text">We use cookies to improve your experience.</span>
+    <a href="#" data-i18n="cookie.policy"> Cookie Policy</a>.
+  </p>
+  <div class="cookie-actions">
+    <button class="cookie-btn cookie-btn--accept" id="cookieAccept" data-i18n="cookie.accept">Accept</button>
+    <button class="cookie-btn cookie-btn--decline" id="cookieDecline" data-i18n="cookie.decline">Decline</button>
+  </div>
+</div>
+
+<script src="translations.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

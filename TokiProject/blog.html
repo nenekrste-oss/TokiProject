@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Blog — RiftFitness</title>
+  <meta name="description" content="Training tips, nutrition advice, and community stories from the RiftFitness blog."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ── NAV ────────────────────────────────────────────────── -->
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo"><span class="logo-rift">RIFT</span><span class="logo-fitness">FITNESS</span></a>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="index.html"    data-page="index.html"    data-i18n="nav.home">Home</a></li>
+      <li><a href="about.html"    data-page="about.html"    data-i18n="nav.about">About</a></li>
+      <li><a href="programs.html" data-page="programs.html" data-i18n="nav.programs">Programs</a></li>
+      <li><a href="blog.html"     data-page="blog.html"     data-i18n="nav.blog">Blog</a></li>
+      <li><a href="contact.html"  data-page="contact.html"  data-i18n="nav.contact">Contact</a></li>
+    </ul>
+    <div class="nav__right">
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+        <span class="lang-en lang-active">EN</span>
+        <span class="lang-sep">|</span>
+        <span class="lang-mk">МК</span>
+      </button>
+      <a href="contact.html" class="btn btn--outline nav__cta" data-i18n="nav.join">Join Now</a>
+      <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- ── PAGE HERO ──────────────────────────────────────────── -->
+<div class="page-hero">
+  <div class="container">
+    <h1 class="page-hero__title" data-i18n="blog.hero.title">News & Blog</h1>
+    <p class="page-hero__sub" data-i18n="blog.hero.sub">Tips, stories, and updates from the RiftFitness community.</p>
+  </div>
+</div>
+
+<!-- ── BLOG POSTS ──────────────────────────────────────────── -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag" data-i18n="blog.tag">Latest Updates</span>
+      <h2 class="section-title" data-i18n="blog.title">From Our <em>Blog</em></h2>
+    </div>
+    <div class="blog-grid">
+
+      <!-- Post 1 -->
+      <div class="blog-card" id="blog1">
+        <div class="blog-card__img">
+          <div class="blog-card__img-inner blog-grad-1"></div>
+          <span class="blog-card__cat" data-i18n="blog.1.cat">Training</span>
+          <span class="blog-icon">🏋️</span>
+        </div>
+        <div class="blog-card__body">
+          <span class="blog-card__date" data-i18n="blog.1.date">August 15, 2026</span>
+          <h3 class="blog-card__title" data-i18n="blog.1.title">5 Reasons Progressive Overload Is the Key to Muscle Growth</h3>
+          <p class="blog-card__excerpt" data-i18n="blog.1.excerpt">If you've been training without seeing results, progressive overload might be the missing piece. We break down exactly how to implement it.</p>
+          <a href="#" class="blog-card__link" data-i18n="blog.read">Read More →</a>
+        </div>
+      </div>
+
+      <!-- Post 2 -->
+      <div class="blog-card" id="blog2">
+        <div class="blog-card__img">
+          <div class="blog-card__img-inner blog-grad-2"></div>
+          <span class="blog-card__cat" data-i18n="blog.2.cat">Nutrition</span>
+          <span class="blog-icon">🥗</span>
+        </div>
+        <div class="blog-card__body">
+          <span class="blog-card__date" data-i18n="blog.2.date">August 8, 2026</span>
+          <h3 class="blog-card__title" data-i18n="blog.2.title">Protein Timing: Does It Really Matter When You Eat?</h3>
+          <p class="blog-card__excerpt" data-i18n="blog.2.excerpt">The science on protein timing has evolved dramatically. Our nutrition team weighs in on what actually matters for muscle protein synthesis.</p>
+          <a href="#" class="blog-card__link" data-i18n="blog.read">Read More →</a>
+        </div>
+      </div>
+
+      <!-- Post 3 -->
+      <div class="blog-card" id="blog3">
+        <div class="blog-card__img">
+          <div class="blog-card__img-inner blog-grad-3"></div>
+          <span class="blog-card__cat" data-i18n="blog.3.cat">Recovery</span>
+          <span class="blog-icon">😴</span>
+        </div>
+        <div class="blog-card__body">
+          <span class="blog-card__date" data-i18n="blog.3.date">July 30, 2026</span>
+          <h3 class="blog-card__title" data-i18n="blog.3.title">Why Sleep Is Your Most Powerful Performance Tool</h3>
+          <p class="blog-card__excerpt" data-i18n="blog.3.excerpt">No supplement or program can outperform quality sleep. Here's what the research says and how to optimize your recovery tonight.</p>
+          <a href="#" class="blog-card__link" data-i18n="blog.read">Read More →</a>
+        </div>
+      </div>
+
+      <!-- Post 4 -->
+      <div class="blog-card" id="blog4">
+        <div class="blog-card__img">
+          <div class="blog-card__img-inner blog-grad-4"></div>
+          <span class="blog-card__cat" data-i18n="blog.4.cat">Community</span>
+          <span class="blog-icon">🏅</span>
+        </div>
+        <div class="blog-card__body">
+          <span class="blog-card__date" data-i18n="blog.4.date">July 22, 2026</span>
+          <h3 class="blog-card__title" data-i18n="blog.4.title">Member Spotlight: How Maya Lost 22 kg in 5 Months</h3>
+          <p class="blog-card__excerpt" data-i18n="blog.4.excerpt">Maya Petrov joined RiftFitness with one goal. Five months and 22 kg later, she shares her story, struggles, and advice.</p>
+          <a href="#" class="blog-card__link" data-i18n="blog.read">Read More →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA ─────────────────────────────────────────────────── -->
+<section class="cta-section">
+  <div class="container">
+    <h2 data-i18n="home.cta.title">Ready to <em>Start?</em></h2>
+    <p data-i18n="home.cta.sub">Join thousands of members already transforming their lives.</p>
+    <a href="contact.html" class="btn btn--primary" data-i18n="home.cta.btn">Join RiftFitness Today</a>
+  </div>
+</section>
+
+<!-- ── FOOTER ──────────────────────────────────────────────── -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <a href="index.html" class="nav__logo"><span class="logo-rift">RIFT</span><span class="logo-fitness">FITNESS</span></a>
+        <p data-i18n="footer.tagline">Where limits come to die.</p>
+      </div>
+      <div class="footer__cols">
+        <div class="footer__col">
+          <h5 data-i18n="footer.platform">Platform</h5>
+          <a href="programs.html" data-i18n="footer.programs">Programs</a>
+          <a href="about.html"    data-i18n="footer.about">About Us</a>
+          <a href="blog.html"     data-i18n="footer.blog">Blog</a>
+          <a href="contact.html"  data-i18n="footer.contact">Contact</a>
+        </div>
+        <div class="footer__col">
+          <h5 data-i18n="footer.company">Company</h5>
+          <a href="about.html"   data-i18n="footer.team">Our Team</a>
+          <a href="contact.html" data-i18n="footer.careers">Careers</a>
+          <a href="#"            data-i18n="footer.press">Press</a>
+        </div>
+        <div class="footer__col">
+          <h5 data-i18n="footer.support">Support</h5>
+          <a href="#" data-i18n="footer.help">Help Center</a>
+          <a href="#" data-i18n="footer.privacy">Privacy Policy</a>
+          <a href="#" data-i18n="footer.terms">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p data-i18n="footer.copy">© 2026 RiftFitness. All rights reserved.</p>
+      <div class="footer__socials">
+        <a href="#" class="footer-social" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+        <a href="#" class="footer-social" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ── COOKIE BANNER ────────────────────────────────────────── -->
+<div class="cookie-banner" id="cookieBanner">
+  <p>
+    <span data-i18n="cookie.text">We use cookies to improve your experience.</span>
+    <a href="#" data-i18n="cookie.policy"> Cookie Policy</a>.
+  </p>
+  <div class="cookie-actions">
+    <button class="cookie-btn cookie-btn--accept" id="cookieAccept" data-i18n="cookie.accept">Accept</button>
+    <button class="cookie-btn cookie-btn--decline" id="cookieDecline" data-i18n="cookie.decline">Decline</button>
+  </div>
+</div>
+
+<script src="translations.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

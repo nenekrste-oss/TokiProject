@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>RiftFitness — Break Every Limit</title>
+  <meta name="description" content="RiftFitness delivers elite fitness programs, world-class coaches, and a community built to push past every limit."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ── NAV ────────────────────────────────────────────────── -->
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo"><span class="logo-rift">RIFT</span><span class="logo-fitness">FITNESS</span></a>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="index.html"    data-page="index.html"    data-i18n="nav.home">Home</a></li>
+      <li><a href="about.html"    data-page="about.html"    data-i18n="nav.about">About</a></li>
+      <li><a href="programs.html" data-page="programs.html" data-i18n="nav.programs">Programs</a></li>
+      <li><a href="blog.html"     data-page="blog.html"     data-i18n="nav.blog">Blog</a></li>
+      <li><a href="contact.html"  data-page="contact.html"  data-i18n="nav.contact">Contact</a></li>
+    </ul>
+    <div class="nav__right">
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+        <span class="lang-en lang-active">EN</span>
+        <span class="lang-sep">|</span>
+        <span class="lang-mk">МК</span>
+      </button>
+      <a href="contact.html" class="btn btn--outline nav__cta" data-i18n="nav.join">Join Now</a>
+      <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- ── HERO ───────────────────────────────────────────────── -->
+<section class="hero" id="hero">
+  <div class="hero__bg">
+    <img src="rift_hero_bg.png" alt="RiftFitness gym" class="hero__bg-img"/>
+    <div class="hero__overlay"></div>
+  </div>
+  <div class="hero__content">
+    <div class="hero__badge">
+      <span class="badge-dot"></span>
+      <span data-i18n="home.badge">Elite Training · Est. 2024</span>
+    </div>
+    <h1 class="hero__title">
+      <span data-i18n="home.h1.1">BREAK</span><br/>
+      <span data-i18n="home.h1.2">EVERY</span><br/>
+      <span data-i18n="home.h1.3">LIMIT</span><span class="accent">.</span>
+    </h1>
+    <p class="hero__sub" data-i18n="home.sub">
+      RiftFitness delivers elite fitness programs, world-class coaches, and a community built to push past every limit.
+    </p>
+    <div class="hero__actions">
+      <a href="contact.html" class="btn btn--primary" data-i18n="home.cta1">Start Today</a>
+      <a href="programs.html" class="btn btn--ghost" data-i18n="home.cta2">Our Programs</a>
+    </div>
+    <div class="hero__stats">
+      <div class="hstat">
+        <span class="hstat__num" data-i18n="home.stat1.num">12,400</span>
+        <span class="hstat__label" data-i18n="home.stat1.label">Active Members</span>
+      </div>
+      <div class="hstat__div"></div>
+      <div class="hstat">
+        <span class="hstat__num" data-i18n="home.stat2.num">47</span>
+        <span class="hstat__label" data-i18n="home.stat2.label">Expert Coaches</span>
+      </div>
+      <div class="hstat__div"></div>
+      <div class="hstat">
+        <span class="hstat__num" data-i18n="home.stat3.num">320+</span>
+        <span class="hstat__label" data-i18n="home.stat3.label">Programs</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── MARQUEE ─────────────────────────────────────────────── -->
+<div class="marquee-wrap">
+  <div class="marquee">
+    <span>Strength</span><span class="marquee-dot">✦</span>
+    <span>Endurance</span><span class="marquee-dot">✦</span>
+    <span>Mobility</span><span class="marquee-dot">✦</span>
+    <span>Hypertrophy</span><span class="marquee-dot">✦</span>
+    <span>Power</span><span class="marquee-dot">✦</span>
+    <span>Recovery</span><span class="marquee-dot">✦</span>
+    <span>Nutrition</span><span class="marquee-dot">✦</span>
+    <span>Mindset</span><span class="marquee-dot">✦</span>
+    <span>Strength</span><span class="marquee-dot">✦</span>
+    <span>Endurance</span><span class="marquee-dot">✦</span>
+    <span>Mobility</span><span class="marquee-dot">✦</span>
+    <span>Hypertrophy</span><span class="marquee-dot">✦</span>
+    <span>Power</span><span class="marquee-dot">✦</span>
+    <span>Recovery</span><span class="marquee-dot">✦</span>
+    <span>Nutrition</span><span class="marquee-dot">✦</span>
+    <span>Mindset</span><span class="marquee-dot">✦</span>
+  </div>
+</div>
+
+<!-- ── INTRO ───────────────────────────────────────────────── -->
+<section class="section" style="background:var(--bg2)">
+  <div class="container">
+    <div class="intro-layout">
+      <div class="intro-text">
+        <span class="section-tag" data-i18n="home.intro.tag">About RiftFitness</span>
+        <h2 data-i18n="home.intro.title">More Than Just a Gym</h2>
+        <p data-i18n="home.intro.text">Founded in 2024, RiftFitness was built on one principle: no compromises. We combine science-backed training with passionate coaching to deliver results that last.</p>
+        <a href="about.html" class="btn btn--outline" data-i18n="home.intro.btn">Learn More About Us</a>
+      </div>
+      <div class="intro-img">
+        <img src="rift_hero_bg.jpg" alt="RiftFitness trainer"/>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── STATS ROW ───────────────────────────────────────────── -->
+<div class="stats-row">
+  <div class="container">
+    <div class="stats-row__grid">
+      <div class="stat-box">
+        <div><span class="stat-box__num">12,400</span><span class="stat-box__suffix">+</span></div>
+        <div class="stat-box__label" data-i18n="home.stat1.label">Active Members</div>
+      </div>
+      <div class="stat-box">
+        <div><span class="stat-box__num">47</span></div>
+        <div class="stat-box__label" data-i18n="home.stat2.label">Expert Coaches</div>
+      </div>
+      <div class="stat-box">
+        <div><span class="stat-box__num">320</span><span class="stat-box__suffix">+</span></div>
+        <div class="stat-box__label" data-i18n="home.stat3.label">Programs</div>
+      </div>
+      <div class="stat-box">
+        <div><span class="stat-box__num">98</span><span class="stat-box__suffix">%</span></div>
+        <div class="stat-box__label">Satisfaction</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── FEATURED PROGRAMS ────────────────────────────────────── -->
+<section class="section" id="programs">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag" data-i18n="home.feat.tag">What We Offer</span>
+      <h2 class="section-title" data-i18n="home.feat.title">Featured <em>Programs</em></h2>
+    </div>
+    <div class="programs-grid">
+
+      <div class="prog-card">
+        <span class="prog-card__tag" data-i18n="prog.powerlifting.tag">Most Popular</span>
+        <div class="prog-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 4v16M18 4v16M4 8h2M18 8h2M4 16h2M18 16h2M8 12h8"/></svg>
+        </div>
+        <h3 data-i18n="prog.powerlifting.name">Powerlifting</h3>
+        <p data-i18n="prog.powerlifting.desc">Build raw, functional strength through progressive overload and periodized programming for all levels.</p>
+        <ul class="prog-card__list">
+          <li data-i18n="prog.powerlifting.f1">Squat, Bench & Deadlift focus</li>
+          <li data-i18n="prog.powerlifting.f2">12-week linear progression</li>
+          <li data-i18n="prog.powerlifting.f3">Weekly coach check-ins</li>
+        </ul>
+        <a href="programs.html" class="prog-card__cta" data-i18n="programs.cta">Start This Program</a>
+      </div>
+
+      <div class="prog-card">
+        <span class="prog-card__tag" data-i18n="prog.hiit.tag">Best Value</span>
+        <div class="prog-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        </div>
+        <h3 data-i18n="prog.hiit.name">HIIT & Cardio</h3>
+        <p data-i18n="prog.hiit.desc">High-intensity intervals designed to shred fat and spike your metabolism.</p>
+        <ul class="prog-card__list">
+          <li data-i18n="prog.hiit.f1">Tabata & AMRAP circuits</li>
+          <li data-i18n="prog.hiit.f2">Heart-rate zone training</li>
+          <li data-i18n="prog.hiit.f3">Nutrition integration</li>
+        </ul>
+        <a href="programs.html" class="prog-card__cta" data-i18n="programs.cta">Start This Program</a>
+      </div>
+
+      <div class="prog-card">
+        <span class="prog-card__tag" data-i18n="prog.foundation.tag">Beginner</span>
+        <div class="prog-card__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+        </div>
+        <h3 data-i18n="prog.foundation.name">Foundation</h3>
+        <p data-i18n="prog.foundation.desc">The perfect launchpad. Learn movement patterns and develop habits that last a lifetime.</p>
+        <ul class="prog-card__list">
+          <li data-i18n="prog.foundation.f1">8-week starter curriculum</li>
+          <li data-i18n="prog.foundation.f2">Video library & form checks</li>
+          <li data-i18n="prog.foundation.f3">1-on-1 onboarding call</li>
+        </ul>
+        <a href="programs.html" class="prog-card__cta" data-i18n="programs.cta">Start This Program</a>
+      </div>
+
+    </div>
+    <div style="text-align:center;margin-top:36px">
+      <a href="programs.html" class="btn btn--outline" data-i18n="home.feat.btn">View All Programs</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── TESTIMONIALS ─────────────────────────────────────────── -->
+<section class="section" style="background:var(--bg2)">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag" data-i18n="home.test.tag">Member Stories</span>
+      <h2 class="section-title" data-i18n="home.test.title">Real People. <em>Real Results.</em></h2>
+    </div>
+    <div class="testimonials-grid">
+
+      <div class="test-card" id="test1">
+        <div class="test-card__stars">★★★★★</div>
+        <p class="test-card__text" data-i18n="test.1.text">"I went from 105 kg to 83 kg in 8 months with the Body Recomposition program."</p>
+        <div class="test-card__author">
+          <div class="test-card__avatar" style="background:linear-gradient(135deg,#f97316,#ef4444)">JK</div>
+          <div>
+            <strong data-i18n="test.1.name">Jake Keller</strong>
+            <span data-i18n="test.1.info">Body Recomposition · 8 months</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="test-card" id="test2">
+        <div class="test-card__stars">★★★★★</div>
+        <p class="test-card__text" data-i18n="test.2.text">"The HIIT program is on another level. Down 22 kg and I enjoy working out for the first time."</p>
+        <div class="test-card__author">
+          <div class="test-card__avatar" style="background:linear-gradient(135deg,#8b5cf6,#3b82f6)">MP</div>
+          <div>
+            <strong data-i18n="test.2.name">Maya Petrov</strong>
+            <span data-i18n="test.2.info">HIIT & Cardio · 5 months</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="test-card" id="test3">
+        <div class="test-card__stars">★★★★★</div>
+        <p class="test-card__text" data-i18n="test.3.text">"Hit a 235 kg deadlift at 28 years old after 6 months on the Powerlifting track."</p>
+        <div class="test-card__author">
+          <div class="test-card__avatar" style="background:linear-gradient(135deg,#10b981,#0ea5e9)">RS</div>
+          <div>
+            <strong data-i18n="test.3.name">Ryan Sato</strong>
+            <span data-i18n="test.3.info">Powerlifting · 6 months</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA ─────────────────────────────────────────────────── -->
+<section class="cta-section">
+  <div class="container">
+    <h2 data-i18n="home.cta.title">Ready to <em>Start?</em></h2>
+    <p data-i18n="home.cta.sub">Join thousands of members already transforming their lives.</p>
+    <a href="contact.html" class="btn btn--primary" data-i18n="home.cta.btn">Join RiftFitness Today</a>
+  </div>
+</section>
+
+<!-- ── FOOTER ──────────────────────────────────────────────── -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <a href="index.html" class="nav__logo"><span class="logo-rift">RIFT</span><span class="logo-fitness">FITNESS</span></a>
+        <p data-i18n="footer.tagline">Where limits come to die.</p>
+      </div>
+      <div class="footer__cols">
+        <div class="footer__col">
+          <h5 data-i18n="footer.platform">Platform</h5>
+          <a href="programs.html" data-i18n="footer.programs">Programs</a>
+          <a href="about.html"    data-i18n="footer.about">About Us</a>
+          <a href="blog.html"     data-i18n="footer.blog">Blog</a>
+          <a href="contact.html"  data-i18n="footer.contact">Contact</a>
+        </div>
+        <div class="footer__col">
+          <h5 data-i18n="footer.company">Company</h5>
+          <a href="about.html"   data-i18n="footer.team">Our Team</a>
+          <a href="contact.html" data-i18n="footer.careers">Careers</a>
+          <a href="#"            data-i18n="footer.press">Press</a>
+        </div>
+        <div class="footer__col">
+          <h5 data-i18n="footer.support">Support</h5>
+          <a href="#" data-i18n="footer.help">Help Center</a>
+          <a href="#" data-i18n="footer.privacy">Privacy Policy</a>
+          <a href="#" data-i18n="footer.terms">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p data-i18n="footer.copy">© 2026 RiftFitness. All rights reserved.</p>
+      <div class="footer__socials">
+        <a href="#" class="footer-social" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+        <a href="#" class="footer-social" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        </a>
+        <a href="#" class="footer-social" aria-label="YouTube">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ── COOKIE BANNER ────────────────────────────────────────── -->
+<div class="cookie-banner" id="cookieBanner">
+  <p>
+    <span data-i18n="cookie.text">We use cookies to improve your experience. By continuing, you agree to our</span>
+    <a href="#" data-i18n="cookie.policy"> Cookie Policy</a>.
+  </p>
+  <div class="cookie-actions">
+    <button class="cookie-btn cookie-btn--accept" id="cookieAccept" data-i18n="cookie.accept">Accept</button>
+    <button class="cookie-btn cookie-btn--decline" id="cookieDecline" data-i18n="cookie.decline">Decline</button>
+  </div>
+</div>
+
+<script src="translations.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

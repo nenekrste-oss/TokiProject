@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Contact — RiftFitness</title>
+  <meta name="description" content="Contact RiftFitness — get in touch with our team, find our address, and send us a message."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ── NAV ────────────────────────────────────────────────── -->
+<nav class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo"><span class="logo-rift">RIFT</span><span class="logo-fitness">FITNESS</span></a>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="index.html"    data-page="index.html"    data-i18n="nav.home">Home</a></li>
+      <li><a href="about.html"    data-page="about.html"    data-i18n="nav.about">About</a></li>
+      <li><a href="programs.html" data-page="programs.html" data-i18n="nav.programs">Programs</a></li>
+      <li><a href="blog.html"     data-page="blog.html"     data-i18n="nav.blog">Blog</a></li>
+      <li><a href="contact.html"  data-page="contact.html"  data-i18n="nav.contact">Contact</a></li>
+    </ul>
+    <div class="nav__right">
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+        <span class="lang-en lang-active">EN</span>
+        <span class="lang-sep">|</span>
+        <span class="lang-mk">МК</span>
+      </button>
+      <a href="#contactForm" class="btn btn--outline nav__cta" data-i18n="nav.join">Join Now</a>
+      <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- ── PAGE HERO ──────────────────────────────────────────── -->
+<div class="page-hero">
+  <div class="container">
+    <h1 class="page-hero__title" data-i18n="contact.hero.title">Contact Us</h1>
+    <p class="page-hero__sub" data-i18n="contact.hero.sub">We'd love to hear from you. Reach out anytime.</p>
+  </div>
+</div>
+
+<!-- ── CONTACT SECTION ─────────────────────────────────────── -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag" data-i18n="contact.info.tag">Get in Touch</span>
+      <h2 class="section-title" data-i18n="contact.info.title">We're Here <em>for You</em></h2>
+      <p class="section-sub" data-i18n="contact.info.sub">Have a question about our programs or membership? Send us a message and we'll get back to you within 24 hours.</p>
+    </div>
+
+    <div class="contact-layout">
+
+      <!-- Info column -->
+      <div class="contact-info">
+
+        <div class="contact-detail">
+          <div class="contact-detail__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div>
+            <div class="contact-detail__label" data-i18n="contact.addr.label">Address</div>
+            <div class="contact-detail__val" data-i18n="contact.addr.val">ul. Partizanska 15, 1000 Skopje, Macedonia</div>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <div class="contact-detail__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.19h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.77a16 16 0 0 0 6.29 6.29l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </div>
+          <div>
+            <div class="contact-detail__label" data-i18n="contact.phone.label">Phone</div>
+            <div class="contact-detail__val" data-i18n="contact.phone.val">+389 2 123 4567</div>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <div class="contact-detail__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <div>
+            <div class="contact-detail__label" data-i18n="contact.email.label">Email</div>
+            <div class="contact-detail__val" data-i18n="contact.email.val">info@riftfitness.mk</div>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <div class="contact-detail__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div>
+            <div class="contact-detail__label" data-i18n="contact.hours.label">Hours</div>
+            <div class="contact-detail__val" data-i18n="contact.hours.val">Mon–Fri 06:00–23:00 | Sat–Sun 08:00–22:00</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Form column -->
+      <form class="contact-form" id="contactForm" novalidate>
+        <input
+          type="text"
+          id="cName"
+          class="form-input"
+          data-i18n-ph="contact.form.name"
+          placeholder="Your Name"
+          autocomplete="name"
+        />
+        <input
+          type="email"
+          id="cEmail"
+          class="form-input"
+          data-i18n-ph="contact.form.email"
+          placeholder="Email Address"
+          autocomplete="email"
+        />
+        <input
+          type="text"
+          id="cSubject"
+          class="form-input"
+          data-i18n-ph="contact.form.subject"
+          placeholder="Subject"
+        />
+        <textarea
+          id="cMessage"
+          class="form-input"
+          rows="5"
+          data-i18n-ph="contact.form.msg"
+          placeholder="Your message..."
+        ></textarea>
+        <button type="submit" class="btn btn--primary btn--full form-submit" id="contactSubmit">
+          <span data-i18n="contact.form.send">Send Message</span>
+        </button>
+        <div class="form-success" id="formSuccess" data-i18n="contact.form.ok">
+          ✓ Message sent! We'll reply within 24 hours.
+        </div>
+      </form>
+
+    </div>
+
+    <!-- Map -->
+    <div class="map-wrap">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47445.4584338!2d21.3778545!3d41.9975815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13541f5f0dd21875%3A0x3c7a26e7a07f7c0!2sSkopje!5e0!3m2!1sen!2smk!4v1690000000000"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="RiftFitness location on map"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <!-- FAQ -->
+    <div style="margin-top:64px">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="faq.tag">FAQ</span>
+        <h2 class="section-title" data-i18n="faq.title">Frequently Asked <em>Questions</em></h2>
+      </div>
+      <div class="faq-grid">
+        <div class="faq-card">
+          <h4 data-i18n="faq.q1">Do I need experience to join?</h4>
+          <p data-i18n="faq.a1">Not at all! Our Foundation program is designed specifically for beginners. Our coaches will guide you from your very first session.</p>
+        </div>
+        <div class="faq-card">
+          <h4 data-i18n="faq.q2">Can I switch programs after signing up?</h4>
+          <p data-i18n="faq.a2">Yes, absolutely. Members on the Forge and Elite plans can switch between programs at any time through their member dashboard.</p>
+        </div>
+        <div class="faq-card">
+          <h4 data-i18n="faq.q3">Is there a free trial?</h4>
+          <p data-i18n="faq.a3">Every plan includes a 7-day free trial. No credit card required. Cancel before the trial ends and you won't be charged.</p>
+        </div>
+        <div class="faq-card">
+          <h4 data-i18n="faq.q4">What equipment do I need?</h4>
+          <p data-i18n="faq.a4">For in-gym programs, all equipment is provided. For home programs, a minimal setup (resistance bands, dumbbells) is recommended.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── FOOTER ──────────────────────────────────────────────── -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <a href="index.html" class="nav__logo"><span class="logo-rift">RIFT</span><span class="logo-fitness">FITNESS</span></a>
+        <p data-i18n="footer.tagline">Where limits come to die.</p>
+      </div>
+      <div class="footer__cols">
+        <div class="footer__col">
+          <h5 data-i18n="footer.platform">Platform</h5>
+          <a href="programs.html" data-i18n="footer.programs">Programs</a>
+          <a href="about.html"    data-i18n="footer.about">About Us</a>
+          <a href="blog.html"     data-i18n="footer.blog">Blog</a>
+          <a href="contact.html"  data-i18n="footer.contact">Contact</a>
+        </div>
+        <div class="footer__col">
+          <h5 data-i18n="footer.company">Company</h5>
+          <a href="about.html"   data-i18n="footer.team">Our Team</a>
+          <a href="contact.html" data-i18n="footer.careers">Careers</a>
+          <a href="#"            data-i18n="footer.press">Press</a>
+        </div>
+        <div class="footer__col">
+          <h5 data-i18n="footer.support">Support</h5>
+          <a href="#" data-i18n="footer.help">Help Center</a>
+          <a href="#" data-i18n="footer.privacy">Privacy Policy</a>
+          <a href="#" data-i18n="footer.terms">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p data-i18n="footer.copy">© 2026 RiftFitness. All rights reserved.</p>
+      <div class="footer__socials">
+        <a href="#" class="footer-social" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+        <a href="#" class="footer-social" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ── COOKIE BANNER ────────────────────────────────────────── -->
+<div class="cookie-banner" id="cookieBanner">
+  <p>
+    <span data-i18n="cookie.text">We use cookies to improve your experience.</span>
+    <a href="#" data-i18n="cookie.policy"> Cookie Policy</a>.
+  </p>
+  <div class="cookie-actions">
+    <button class="cookie-btn cookie-btn--accept" id="cookieAccept" data-i18n="cookie.accept">Accept</button>
+    <button class="cookie-btn cookie-btn--decline" id="cookieDecline" data-i18n="cookie.decline">Decline</button>
+  </div>
+</div>
+
+<script src="translations.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
